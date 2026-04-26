@@ -16,29 +16,29 @@ enum dia
 void main(){
     // criando uma variavel do tipo enum dia
     enum dia d;
-    printf("Digite um dia da semana (0 a 6): ");
+    printf("\nDigite um dia da semana (0 a 6): ");
     // vamos adicionar um inteiro a nossa variavel enum
     scanf("%i", (int *)&d);
     switch (d)
     {
     // podemos utilizar os nomes já que estamos utilizando a variavel do tipo enum
     case domingo:
-        printf("Domingo, dia de descansar!\n");
+        printf("\nDomingo, dia de descansar!\n");
         break;
     case segunda:
-        printf("Segunda\n");
+        printf("\nSegunda\n");
         break;
     case terca:
-        printf("Terça\n");
+        printf("\nTerça\n");
         break;
     case quarta:
-        printf("Quarta\n");
+        printf("\nQuarta\n");
         break;
     case quinta:
-        printf("Quinta\n");
+        printf("\nQuinta\n");
         break;
     case sexta:
-        printf("Sexta\n");
+        printf("\nSexta\n");
         break;
     }
 }
